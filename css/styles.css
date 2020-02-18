@@ -1,3 +1,12 @@
+/* Notes
+Fonts imported from Google: 
+Montserrat
+Tomorrow
+Poppins
+Aladin
+Allerta Stencil
+
+*/
 /* Full page*/
 body{
   margin: 0;
@@ -70,6 +79,7 @@ nav ul {
 
 #copyright {
   margin-bottom: 0;
+  font-family: Allerta Stencil, 'Times New Roman', Times, serif;
 }
 
 
