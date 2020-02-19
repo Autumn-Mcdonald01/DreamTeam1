@@ -29,6 +29,23 @@ h3 {
   text-decoration: underline;
   text-decoration-color: black;
 }
+
+/* Society page */
+
+.titleLink {
+  text-decoration: none;
+}
+
+.titleLink a:hover {
+  text-transform: uppercase;
+  color: rgb(218, 154, 54);
+}
+
+.titleLink a:visited {
+  color: black;
+}
+
+
 /* Logo */
 nav li img {
   width: 120px;
@@ -71,10 +88,20 @@ nav ul {
  /* Photos of Williams & Norell */
  .Norell {
    width: 300px;
+   box-shadow: 5px 5px 5px #707070;
  }
 
  .Williams {
    width: 400px;
+    box-shadow: 5px 5px 5px #707070;
+ }
+
+ /* Photos */
+ .event1, .event2, .event3 {
+  box-shadow: 5px 5px 5px #707070;
+ }
+ .homePageImg {
+   box-shadow: 5px 5px 5px #707070;
  }
 /* link back to top of page */
 
