@@ -19,6 +19,16 @@ body{
 h1 {
   font-family: 'Montserrat', Verdana, Tahoma, sans-serif;
 }
+
+h2 {
+  font-family: 'Poppins', Verdana, Tahoma, sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', Verdana, Tahoma, sans-serif;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
 /* Logo */
 nav li img {
   width: 120px;
