@@ -1,10 +1,10 @@
 /* Notes
 Fonts imported from Google: 
-Montserrat
-Tomorrow
-Poppins
-Aladin
-Allerta Stencil
+Montserrat - Neat, easily read, without being overly boring to look at
+Tomorrow - computerized-esque text with harsh angles instead of round edges
+Poppins - similar to Montserrat but with more definitive letters shapes and thicker letters
+Aladin - Purely decorative, caligraphy font
+Allerta Stencil - decorative stencil font - blocky
 
 */
 /* Full page*/
@@ -20,7 +20,7 @@ nav li img {
 
 /* Navbar */
 nav {
-  font-family: 'Tomorrow', Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 nav ul {
     list-style-type: none;
