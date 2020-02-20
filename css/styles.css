@@ -124,18 +124,19 @@ nav ul {
 }
 /* social media buttons*/
 .socialMediaButton img {
-  width: 3.33em;
-  height: 3.33em;
+  width: 4em;
+  height: 4em;
   border-radius: 100px;
-  margin: 0;
+  margin: 10px;
   padding: 0;
   text-decoration: none;
-  border: 5px double rgb(218, 154, 54);
+  border: 5px double rgba(218, 154, 54, 0.5);
 }
 
 .socialMediaButton img:hover {
-  width: 4.167em;
-  height: 4.167em;
+  border: 5px double rgb(218, 154, 54);
+  transform: scale(1.5) rotate(360deg);
+  transition: 0.75s;
 }
 
 #page-footer ul {
