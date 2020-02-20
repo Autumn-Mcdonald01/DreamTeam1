@@ -19,6 +19,33 @@ body{
 h1 {
   font-family: 'Montserrat', Verdana, Tahoma, sans-serif;
 }
+
+h2 {
+  font-family: 'Poppins', Verdana, Tahoma, sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', Verdana, Tahoma, sans-serif;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+/* Society page */
+
+.titleLink {
+  text-decoration: none;
+}
+
+.titleLink a:hover {
+  text-transform: uppercase;
+  color: rgb(218, 154, 54);
+}
+
+.titleLink a:visited {
+  color: black;
+}
+
+
 /* Logo */
 nav li img {
   width: 120px;
@@ -51,43 +78,88 @@ nav ul {
     text-decoration: none;
     border: 1px solid rgb(218, 154, 54);
     border-radius: 4px;
-    
+    text-shadow: 2px 2px 0 black,
+                 1px 1px 0 grey;
   }
   
  nav li a:hover {
     background-color: green;
+    font-size: 210%;
   }
- 
+ /* Photos of Williams & Norell */
+ .Norell {
+   width: 300px;
+   box-shadow: 5px 5px 5px #707070;
+ }
+
+ .Williams {
+   width: 400px;
+    box-shadow: 5px 5px 5px #707070;
+ }
+
+ /* Photos */
+ .event1, .event2, .event3 {
+  box-shadow: 5px 5px 5px #707070;
+ }
+ .homePageImg {
+   box-shadow: 5px 5px 5px #707070;
+ }
 /* link back to top of page */
 
-#bottomToTop a:visited {
-  color: rgb(105, 110, 70)
-}
-
 #bottomToTop a:link, #bottomToTop a:visited {
+  font-family: 'Montserrat', Verdana, Tahoma, sans-serif;
   background-color: #2bf10391;
   color: black;
-  padding: 4px 8px;
+  padding: 4px 8px 4px 8px;
   text-align: center; 
   text-decoration: none;
+  text-transform: uppercase;
   display: block;
- 
+  text-align: center;
 }
 
 #bottomToTop a:hover, #bottomToTop a:active {
   background-color: #fbff007e;
+  font-size: 120%;
+}
+/* social media buttons*/
+.socialMediaButton img {
+  width: 4em;
+  height: 4em;
+  border-radius: 100px;
+  margin: 10px;
+  padding: 0;
+  text-decoration: none;
+  border: 5px double rgba(218, 154, 54, 0.5);
+}
+
+.socialMediaButton img:hover {
+  border: 5px double rgb(218, 154, 54);
+  transform: scale(1.5) rotate(360deg);
+  transition: 0.75s;
+}
+
+#page-footer ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#page-footer li {
+  display: inline-block;
 }
 
 /* Webpage footer */
 
 #page-footer {
-  background-color: rgb(105, 110, 70); 
+  background-color: darkgreen; 
   color: white;
 }
 
 #copyright {
   margin-bottom: 0;
-  font-family: Allerta Stencil, 'Times New Roman', Times, serif;
+  font-family: 'Allerta Stencil', 'Times New Roman', Times, serif;
 }
 
 
@@ -109,5 +181,52 @@ th {
   background-color: darkgreen;
 }
 
+/* Event Table*/
+.events {
+  padding-top:2px;
+ 
+}
 
+/* Media Queries (must remain at bottom of CSS*/
 
+  /* Small Phone*/
+  @media screen and (max-width: 320px) {
+    nav li {
+      float: none;
+      text-align: center;
+      padding: 20px 16px;
+   }
+    }
+
+  /*Small Devices/Most Phones*/
+  @media screen and (max-width: 480px) {
+    nav li {
+      float: none;
+      text-align: center;
+      padding: 20px 16px;
+   }
+  }
+
+  /* Tablets */
+  @media screen and (max-width: 768px) {
+    nav li, nav li a{
+      float: none;
+      text-align: center;
+      margin: 0;
+      padding: 10%;
+      font-size: 100%;
+   }
+   img { 
+     width: 100%;
+   }
+  }
+
+  /* Small desktop window */
+  @media screen and (max-width: 992px) {
+   
+  }
+
+  /* Large devices or large screens*/
+  @media screen and (max-width: 1200px) {
+  
+  }
