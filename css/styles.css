@@ -180,16 +180,22 @@ th {
   background-color: darkgreen;
 }
 
+/* Event Table*/
+.events {
+  padding-top:2px;
+ 
+}
+
 /* Media Queries (must remain at bottom of CSS*/
 
   /* Small Phone*/
-@media screen and (max-width: 320px) {
-  nav li {
-    float: none;
-    text-align: center;
-    padding: 20px 16px;
- }
-  }
+  @media screen and (max-width: 320px) {
+    nav li {
+      float: none;
+      text-align: center;
+      padding: 20px 16px;
+   }
+    }
 
   /*Small Devices/Most Phones*/
   @media screen and (max-width: 480px) {
@@ -198,8 +204,6 @@ th {
       text-align: center;
       padding: 20px 16px;
    }
-
-
   }
 
   /* Tablets */
