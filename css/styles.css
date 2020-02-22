@@ -190,8 +190,8 @@ th {
 /**  Calendar CSS */
 
 .wrapper {
-  width: 100vw;
-  height: 100vh;
+  width: 550px;
+  height: 500px;
   display: flex;
 }
 
