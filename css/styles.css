@@ -89,7 +89,9 @@ nav ul {
  /* Photos of Williams & Norell */
  .Norell {
    width: 300px;
+   height: 400px;
    box-shadow: 5px 5px 5px #707070;
+   margin-bottom:50px ;
  }
 
  .Williams {
