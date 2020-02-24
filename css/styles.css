@@ -10,10 +10,12 @@ Allerta Stencil - decorative stencil font - blocky
 /* Full page*/
 body{
   margin: 0;
+  background-color: rgba(139, 137, 0, 0.2)
 }
 
 .page-content {
   margin: 1%;
+  
 }
 
 h1 {
@@ -34,16 +36,14 @@ h3 {
 
 .titleLink {
   text-decoration: none;
+  color: black;
 }
 
-.titleLink a:hover {
+.titleLink:hover {
   text-transform: uppercase;
   color: rgb(218, 154, 54);
 }
 
-.titleLink a:visited {
-  color: black;
-}
 
 
 /* Logo */
@@ -286,47 +286,30 @@ th {
   font-weight: 500;
 }
 
-/* Media Queries (must remain at bottom of CSS*/
+/* Media Queries (must remain at bottom of CSS) */
 
   /* Small Phone*/
-  @media screen and (max-width: 320px) {
-    nav li {
-      float: none;
-      text-align: center;
-      padding: 20px 16px;
-   }
-    }
+  @media screen and (min-width: 320px) {
 
+  }
+  
   /*Small Devices/Most Phones*/
-  @media screen and (max-width: 480px) {
-    nav li {
-      float: none;
-      text-align: center;
-      padding: 20px 16px;
-   }
+  @media screen and (min-width: 480px) {
+
   }
 
   /* Tablets */
-  @media screen and (max-width: 768px) {
-    nav li, nav li a{
-      float: none;
-      text-align: center;
-      margin: 0;
-      padding: 10%;
-      font-size: 100%;
-   }
-   img { 
-     width: 100%;
-   }
-  }
+  @media screen and (min-width: 768px) {
 
+  }
+  
   /* Small desktop window */
-  @media screen and (max-width: 992px) {
+  @media screen and (min-width: 992px) {
    
   }
 
   /* Large devices or large screens*/
-  @media screen and (max-width: 1200px) {
+  @media screen and (min-width: 1200px) {
   
   }
 
