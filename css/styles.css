@@ -91,7 +91,7 @@ nav ul {
    width: 300px;
    height: 400px;
    box-shadow: 5px 5px 5px #707070;
-   margin-bottom:50px ;
+ 
  }
 
  .Williams {
@@ -113,11 +113,11 @@ nav ul {
   background-color: #2bf10391;
   color: black;
   padding: 4px 8px 4px 8px;
-  text-align: center; 
+  text-align:center; 
   text-decoration: none;
   text-transform: uppercase;
   display: block;
-  text-align: center;
+  background-color: white;
 }
 
 #bottomToTop a:hover, #bottomToTop a:active {
@@ -133,6 +133,8 @@ nav ul {
   padding: 0;
   text-decoration: none;
   border: 5px double rgba(218, 154, 54, 0.5);
+  
+  
 }
 
 .socialMediaButton img:hover {
@@ -146,6 +148,7 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  background-color: white;
 }
 
 #page-footer li {
@@ -155,13 +158,16 @@ nav ul {
 /* Webpage footer */
 
 #page-footer {
-  background-color: darkgreen; 
+  background-color:white; 
   color: white;
 }
 
 #copyright {
   margin-bottom: 0;
   font-family: 'Allerta Stencil', 'Times New Roman', Times, serif;
+  text-align: center;
+  background-color: white;
+  color:black;
 }
 
 
