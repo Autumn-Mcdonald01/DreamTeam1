@@ -12,7 +12,7 @@
     <body>
       <header id="top">
         <nav>
-            <ul>
+            <ul class="flex-container">
                 <li><img src="img/NHS-logo.png"></li>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="society.html">Society</a></li>
@@ -21,26 +21,34 @@
                 <li><a href="contact-media.html">Contact/Media</a></li>
             </ul>
         </nav>
-    </header>
-    <div class="page-content">
-    <h1><a class="titleLink" href="society.html#members">Members</a> and <a class="titleLink" href="society.html#leaders">Leaders</a></h1>
-    <h2 id="leaders">Leaders</h2>
-    <img src="img/Lilah Norell.jpg" alt="Lilah Norell" class="Norell"> <!-- PlaceHolder-->
-    <h3>Mrs. Lilah Norell</h3>
-    <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Sed odio morbi quis commodo odio aenean sed. Praesent elementum 
-      facilisis leo vel fringilla est. In metus vulputate eu scelerisque.</blockquote>
-    <img src="img/Cassandra Williams.jpg" alt="Cassandra Williams" class="Williams"> <!-- Placeholder -->
-    <h3>Mrs. Cassandra Williams</h3>
-    <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Sed odio morbi quis commodo odio aenean sed. Praesent elementum 
-      facilisis leo vel fringilla est. In metus vulputate eu scelerisque.</blockquote>
-     
+       </header>
+      <div class="page-content">
+      <h1><a class="titleLink" href="society.html#members">Members</a> and <a class="titleLink" href="society.html#leaders">Leaders</a></h1>
+
+      <h2 id="leaders">Leaders</h2>
+      <div class="leaders flex-container">
+        <div class="flex-item leaderImage">
+      <img src="img/Lilah Norell.jpg" alt="Lilah Norell" class="Norell"> <!-- PlaceHolder-->
+      <h3 class="h3ImageLabel">Mrs. Lilah Norell</h3>
+      <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Sed odio morbi quis commodo odio aenean sed. Praesent elementum 
+        facilisis leo vel fringilla est. In metus vulputate eu scelerisque.</blockquote>
+      </div>
+      <div class="flex-item leaderImage">
+      <img src="img/Cassandra Williams.jpg" alt="Cassandra Williams" class="Williams"> <!-- Placeholder -->
+      <h3 class="h3ImageLabel">Mrs. Cassandra Williams</h3>
+        <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Sed odio morbi quis commodo odio aenean sed. Praesent elementum 
+        facilisis leo vel fringilla est. In metus vulputate eu scelerisque.</blockquote>
+      </div>
+      </div>
+
       <hr>
+
       <h2 id="members">Members</h2>
-      <table id="listMembers" >
+      <table id="listMembers">
         <tr>
           <th>First Name</th>
           <th>Last Name</th> 

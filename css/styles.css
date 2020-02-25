@@ -5,7 +5,6 @@ Tomorrow - computerized-esque text with harsh angles instead of round edges
 Poppins - similar to Montserrat but with more definitive letters shapes and thicker letters
 Aladin - Purely decorative, caligraphy font
 Allerta Stencil - decorative stencil font - blocky
-
 */
 /* Full page*/
 body{
@@ -32,42 +31,29 @@ h3 {
   text-decoration-color: black;
 }
 
-/* Society page */
-
-.titleLink {
-  text-decoration: none;
-  color: black;
-}
-
-.titleLink:hover {
-  text-transform: uppercase;
-  color: rgb(218, 154, 54);
-}
-
-
-
-/* Logo */
-nav li img {
-  width: 120px;
-  height: 120px;
-  max-width: 100%;
+hr {
+  size: 3px;
+  background-color: rgb(218, 154, 54);
 }
 
 /* Navbar */
+nav .flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 nav {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: darkgreen;  
-  }
-  
- nav li {
-     float: left;
-  }
+  } 
   
  nav li a {
     font-size: 200%;
@@ -86,12 +72,54 @@ nav ul {
     background-color: green;
     font-size: 210%;
   }
- /* Photos of Williams & Norell */
+/* Society page Leaders and Members links */
+
+.titleLink {
+  text-decoration: none;
+  color: darkslateblue ;
+}
+
+.titleLink:hover {
+  color: rgb(218, 154, 54);
+}
+
+/* Community Page*/
+.flex-container.communityEvents {
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+}
+
+.community-Event {
+  border: 5px dotted rgb(218, 154, 54);
+  padding: 1em;
+  margin: 0 5px;
+}
+
+/* Logo */
+nav li img {
+  width: 120px;
+  height: 120px;
+  max-width: 100%;
+}
+
+ /* Photos of Williams & Norell / leaders section */
+.flex-item.leaderImage {
+  border-left: 2px solid rgb(218, 154, 54) ;
+  border-right: 2px solid rgb(218, 154, 54);
+}
+ 
+  .h3ImageLabel {
+   margin: 10px;
+ }
+ .leaders.flex-container {
+   display:flex;
+ }
+
  .Norell {
    width: 300px;
    height: 400px;
    box-shadow: 5px 5px 5px #707070;
- 
  }
 
  .Williams {
@@ -102,6 +130,7 @@ nav ul {
  /* Photos */
  .event1, .event2, .event3 {
   box-shadow: 5px 5px 5px #707070;
+  max-width: 20em;
  }
  .homePageImg {
    box-shadow: 5px 5px 5px #707070;
@@ -195,7 +224,7 @@ th {
  
 }
 
-/**  Calendar CSS */
+/*  Calendar CSS */
 
 .wrapper {
   width: 550px;
@@ -314,34 +343,12 @@ section{
   text-align: center;
   line-height: 50px;
   color: white;
-  font-size: 22px; */
-}
+  font-size: 22px;
+} */
 
 /* Media Queries (must remain at bottom of CSS*/
 
-  /* Small Phone*/
-  @media screen and (min-width: 320px) {
+  /* First page layout break*/
+  @media screen and (min-width: 1290px) {
 
   }
-  
-  /*Small Devices/Most Phones*/
-  @media screen and (min-width: 480px) {
-
-  }
-
-  /* Tablets */
-  @media screen and (min-width: 768px) {
-
-  }
-  
-  /* Small desktop window */
-  @media screen and (min-width: 992px) {
-   
-  }
-
-  /* Large devices or large screens*/
-  @media screen and (min-width: 1200px) {
-  
-  }
-
- 
