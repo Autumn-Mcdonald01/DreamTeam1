@@ -9,12 +9,12 @@ Allerta Stencil - decorative stencil font - blocky
 /* Full page*/
 body{
   margin: 0;
-  background-color: rgba(139, 137, 0, 0.2);
-  width: 99vw;
+  background-color: beige;
 }
 
 .page-content {
   margin: 1%;
+  width: 99vw;
   
 }
 
@@ -83,6 +83,12 @@ nav ul {
     color: rgb(255, 228, 110);
     border: inset rgb(173, 144, 46);
   }
+
+ /*Homepage content*/ 
+ .homepageContent {
+   display: flex;
+   flex-wrap: wrap;
+ }
 /* Society page Leaders and Members links */
 
 .titleLink {
@@ -150,6 +156,8 @@ nav li img {
  }
  .homePageImg {
    box-shadow: 5px 5px 5px #707070;
+   width: 90%;
+   align-self: center;
  }
 /* link back to top of page */
 
@@ -220,9 +228,11 @@ nav li img {
 table {
   border-collapse: collapse;
   border: 5px double darkolivegreen;
+  text-align: center;
 }
 
 th, td {
+  background-color: rgb(223, 223, 201);
   border: 2px solid black;
   font-size: 150%;
   padding: 5px;
@@ -387,6 +397,10 @@ section{
     text-transform: none;
     padding: 30px 14px;
   }
+
+  .homePageImg {
+    width: auto;
+  }
 }
 
 /* Third Page Break*/
@@ -413,6 +427,9 @@ section{
     border-radius: 10px;
     text-transform: none;
     padding: 30px 14px;
+  }
+  .homePageImg {
+    width: auto;
   }
 }
 
@@ -441,6 +458,10 @@ section{
       text-transform: none;
       padding: 30px 14px;
     }
+
+    .homePageImg {
+      width: auto;
+    }
   }
 
     /* First page layout break*/
@@ -468,4 +489,9 @@ section{
         text-transform: none;
         padding: 30px 14px;
       }
+
+      .homePageImg {
+        width: auto;
+      }
+      
     }
