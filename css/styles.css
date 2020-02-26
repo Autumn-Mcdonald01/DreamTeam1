@@ -65,21 +65,21 @@ nav ul {
   } 
   
  nav li a {
-    font-size: 100%;
+    font-size: 175%;
     display: block;
-    color: white;
+    background-color: rgb(1, 112, 1);
+    color: rgb(255, 196, 0);
     text-align: center;
-    padding: 20px 16px;
+    padding: 10px 14px;
     text-decoration: none;
-    border: 1px solid rgb(218, 154, 54);
-    border-radius: 4px;
-    text-shadow: 2px 2px 0 black,
-                 1px 1px 0 grey;
+    text-transform: uppercase;
+    border: 2px solid rgb(199, 164, 51);
   }
   
  nav li a:hover {
     background-color: green;
-    color: rgb(218, 188, 54);
+    color: rgb(255, 228, 110);
+    border: inset rgb(173, 144, 46);
   }
 /* Society page Leaders and Members links */
 
@@ -380,6 +380,10 @@ section{
   nav li a {
     font-size: 120%;
     margin: 2px 7px;
+    border: 3px outset rgb(199, 164, 51);
+    border-radius: 10px;
+    text-transform: none;
+    padding: 30px 14px;
   }
 }
 
@@ -389,18 +393,24 @@ section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: center;
     margin: 0 5px;
   }
 
   .navbarLogo {
     margin-right: auto;
-    flex-basis: auto;
+    flex-basis: 100%;
   }
 
   nav li a {
-    font-size: 120%;
+    font-size: 150%;
     margin: 2px 7px;
+    border: 3px outset rgb(199, 164, 51);
+    text-shadow: 2px 2px 0 rgb(116, 116, 0),
+                 1px 1px 0 rgb(200, 200, 0);
+    border-radius: 10px;
+    text-transform: none;
+    padding: 30px 14px;
   }
 }
 
@@ -422,6 +432,12 @@ section{
     nav li a {
       font-size: 150%;
       margin: 2px 7px;
+      border: 4px outset rgb(199, 164, 51);
+      text-shadow: 2px 2px 0 rgb(116, 116, 0),
+                   1px 1px 0 rgb(200, 200, 0);
+      border-radius: 10px;
+      text-transform: none;
+      padding: 30px 14px;
     }
   }
 
@@ -443,5 +459,11 @@ section{
       nav li a {
         font-size: 200%;
         margin: 2px 7px;
+        border: 4px outset rgb(199, 164, 51);
+        text-shadow: 2px 2px 0 rgb(116, 116, 0),
+                     1px 1px 0 rgb(200, 200, 0);
+        border-radius: 10px;
+        text-transform: none;
+        padding: 30px 14px;
       }
     }
