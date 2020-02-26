@@ -17,6 +17,10 @@ body{
   
 }
 
+p {
+  font-family: 'Montserrat', Verdana, Tahoma, sans-serif ;
+}
+
 h1 {
   font-family: 'Montserrat', Verdana, Tahoma, sans-serif;
 }
@@ -36,11 +40,16 @@ hr {
   background-color: rgb(218, 154, 54);
 }
 
+.mailLink, .linksMedia, #listMembers {
+  font-family: 'Poppins', 'Montserrat', Verdana, Tahoma, sans-serif
+}
+
 /* Navbar */
 nav .flex-container {
-  display: flex;
-  flex-direction: row;
+  display: block;
+  flex-direction: column;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 nav {
@@ -49,18 +58,18 @@ nav {
 
 nav ul {
     list-style-type: none;
-    margin: 0;
+    margin: 5px;
     padding: 0;
     overflow: hidden;
     background-color: darkgreen;  
   } 
   
  nav li a {
-    font-size: 200%;
+    font-size: 100%;
     display: block;
     color: white;
     text-align: center;
-    padding: 40px 32px 40px 32px;
+    padding: 20px 16px;
     text-decoration: none;
     border: 1px solid rgb(218, 154, 54);
     border-radius: 4px;
@@ -70,7 +79,7 @@ nav ul {
   
  nav li a:hover {
     background-color: green;
-    font-size: 210%;
+    color: rgb(218, 188, 54);
   }
 /* Society page Leaders and Members links */
 
@@ -101,12 +110,15 @@ nav li img {
   width: 120px;
   height: 120px;
   max-width: 100%;
+  text-align: center;
+}
+ ul .navbarLogo {
+  text-align: center;
 }
 
  /* Photos of Williams & Norell / leaders section */
 .flex-item.leaderImage {
-  border-left: 2px solid rgb(218, 154, 54) ;
-  border-right: 2px solid rgb(218, 154, 54);
+  border: 2px solid rgb(218, 154, 54) ;
 }
  
   .h3ImageLabel {
@@ -114,16 +126,18 @@ nav li img {
  }
  .leaders.flex-container {
    display:flex;
+   flex-wrap: wrap;
+   flex: 1 300px;
  }
 
  .Norell {
-   width: 300px;
-   height: 400px;
+   width: 500px;
+   height: 500px;
    box-shadow: 5px 5px 5px #707070;
  }
 
  .Williams {
-   width: 400px;
+   max-width: 400px;
     box-shadow: 5px 5px 5px #707070;
  }
 
@@ -348,7 +362,86 @@ section{
 
 /* Media Queries (must remain at bottom of CSS*/
 
-  /* First page layout break*/
-  @media screen and (min-width: 1290px) {
-
+/*Fourth Page Break*/
+@media screen and (min-width: 770px) {
+  nav .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 5px;
   }
+
+  .navbarLogo {
+    margin-right: auto;
+    flex-basis: 100%;
+  }
+
+  nav li a {
+    font-size: 120%;
+    margin: 2px 7px;
+  }
+}
+
+/* Third Page Break*/
+@media screen and (min-width: 885px) {
+  nav .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 0 5px;
+  }
+
+  .navbarLogo {
+    margin-right: auto;
+    flex-basis: auto;
+  }
+
+  nav li a {
+    font-size: 120%;
+    margin: 2px 7px;
+  }
+}
+
+  /* Second page layout break*/
+  @media screen and (min-width: 1020px) {
+    nav .flex-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      margin: 0 5px;
+    }
+
+    .navbarLogo {
+      margin-right: auto;
+      flex-basis: auto;
+    }
+
+    nav li a {
+      font-size: 150%;
+      margin: 2px 7px;
+    }
+  }
+
+    /* First page layout break*/
+    @media screen and (min-width: 1270px) {
+      nav .flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        margin: 0 5px;
+      }
+  
+      .navbarLogo {
+        margin-right: auto;
+        flex-basis: auto;
+      }
+  
+      nav li a {
+        font-size: 200%;
+        margin: 2px 7px;
+      }
+    }
