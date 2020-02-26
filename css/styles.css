@@ -331,7 +331,7 @@ th {
 
 /* Back to Top */
 
-/* html{
+html{
   scroll-behavior: smooth;
 }
 body{
@@ -358,7 +358,7 @@ section{
   line-height: 50px;
   color: white;
   font-size: 22px;
-} */
+}
 
 /* Media Queries (must remain at bottom of CSS*/
 
