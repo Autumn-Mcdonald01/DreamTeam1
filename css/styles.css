@@ -193,7 +193,7 @@ nav li img {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: white;
+  background-color:color F 0F 0E 1;
 }
 
 #page-footer li {
@@ -203,15 +203,15 @@ nav li img {
 /* Webpage footer */
 
 #page-footer {
-  background-color:white; 
-  color: white;
+  background: color F 0F 0E 1;
+  color: color F 0F 0E 1;
 }
 
 #copyright {
   margin-bottom: 0;
   font-family: 'Allerta Stencil', 'Times New Roman', Times, serif;
   text-align: center;
-  background-color: white;
+  background-color: color F 0F 0E 1;
   color:black;
 }
 
