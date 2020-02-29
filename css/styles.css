@@ -202,11 +202,7 @@ nav li img {
   list-style-type: none;
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
-  background-color: darkolivegreen;
-=======
   background-color:color F 0F 0E 1;
->>>>>>> 2edf065f5ff2b3d95cc1a3f33b546b87d3f43b33
 }
 
 #page-footer li {
@@ -216,26 +212,16 @@ nav li img {
 /* Webpage footer */
 
 #page-footer {
-<<<<<<< HEAD
-  background-color:darkolivegreen; 
-  color: white;
-=======
   background: color F 0F 0E 1;
   color: color F 0F 0E 1;
->>>>>>> 2edf065f5ff2b3d95cc1a3f33b546b87d3f43b33
 }
 
 #copyright {
   margin-bottom: 0;
   font-family: 'Allerta Stencil', 'Times New Roman', Times, serif;
   text-align: center;
-<<<<<<< HEAD
-  background-color: darkolivegreen;
-  color:white;
-=======
   background-color: color F 0F 0E 1;
   color:black;
->>>>>>> 2edf065f5ff2b3d95cc1a3f33b546b87d3f43b33
 }
 
 
