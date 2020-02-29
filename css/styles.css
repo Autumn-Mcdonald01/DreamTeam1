@@ -61,7 +61,7 @@ nav {
 
 nav ul {
     list-style-type: none;
-    margin: 5px;
+    margin: 0px;
     padding: 0;
     overflow: hidden;
     background-color: darkgreen;  
@@ -89,6 +89,7 @@ nav ul {
  .homepageContent {
    display: flex;
    flex-wrap: wrap;
+   justify-content: center;
  }
 /* Society page Leaders and Members links */
 
@@ -158,7 +159,6 @@ nav li img {
  .homePageImg {
    box-shadow: 5px 5px 5px #707070;
    width: 90%;
-   align-self: center;
  }
 /* link back to top of page */
 
@@ -177,7 +177,7 @@ nav li img {
   background-color: #fbff007e;
   font-size: 120%;
 }
-/* social media buttons*/
+/* Social media buttons*/
 .socialMediaButton img {
   width: 3em;
   height: 3em;
@@ -194,6 +194,13 @@ nav li img {
   display: none;
 }
 
+/* Webpage footer */
+
+#page-footer {
+  background: color F 0F 0E 1;
+  color: color F 0F 0E 1;
+}
+
 #page-footer ul {
   text-align: center;
   list-style-type: none;
@@ -204,13 +211,6 @@ nav li img {
 
 #page-footer li {
   display: inline-block;
-}
-
-/* Webpage footer */
-
-#page-footer {
-  background: color F 0F 0E 1;
-  color: color F 0F 0E 1;
 }
 
 #copyright {
@@ -239,14 +239,14 @@ th, td {
 
 th {
   border-bottom: 2px solid black;
-  color: rgb(240, 240, 222) ;
+  color: rgb(218, 154, 54);
   background-color: darkgreen;
 }
 
 .tableDiv {
-  margin: 10px 10px;
-  width: 60vw;
-}
+  margin-left: 10vw;
+  margin-right: 10vw;
+  width: 80vw; }
 
 /* Event Table*/
 .events {
@@ -375,16 +375,19 @@ section {
   font-size: 22px;
 }
 
+
+
 /* Media Queries (must remain at bottom of CSS*/
 
-/*Fourth Page Break*/
+
+
+/* -------- Fourth page layout break --------*/
 @media screen and (min-width: 770px) {
   nav .flex-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
-    margin: 0 5px;
+    margin: 0;
   }
 
   .navbarLogo {
@@ -405,42 +408,16 @@ section {
     width: auto;
   }
   /* Members Table */
-table {
-  border-collapse: collapse;
-  text-align: center;
-  table-layout: fixed;
-}
 
-th, td {
-  background-color: rgb(223, 223, 201);
-  border: 2px solid black;
-  font-size: 150%;
-  width: 75em;
-  padding: 5px;
-}
-
-th {
-  border-bottom: 2px solid black;
-  color: rgb(218, 154, 54);
-  background-color: darkgreen;
-}
-
-.tableDiv {
-  margin-left: 20vw;
-  margin-right: 20vw;
-  width: 60vw;
-}
-}
-
-/* Third Page Break*/
-@media screen and (min-width: 885px) {
-  nav .flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 5px;
+  .tableDiv {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    width: 60vw;
   }
+}
+
+/* -------- Third page layout break --------*/
+@media screen and (min-width: 885px) {
 
   .navbarLogo {
     margin-right: auto;
@@ -449,156 +426,54 @@ th {
 
   nav li a {
     font-size: 150%;
-    margin: 2px 7px;
-    border: 3px outset rgb(199, 164, 51);
     text-shadow: 2px 2px 0 rgb(116, 116, 0),
                  1px 1px 0 rgb(200, 200, 0);
-    border-radius: 10px;
-    text-transform: none;
-    padding: 30px 14px;
   }
-  .homePageImg {
-    width: auto;
-  }
+
   /* Members Table */
-    table {
-      border-collapse: collapse;
-      text-align: center;
-      table-layout: fixed;
-    }
 
-    th, td {
-      background-color: rgb(223, 223, 201);
-      border: 2px solid black;
-      font-size: 150%;
-      width: 75em;
-      padding: 5px;
-    }
+  th, td {
+    background-color: rgb(223, 223, 201);
+  }
 
-    th {
-      border-bottom: 2px solid black;
-      color: rgb(218, 154, 54);
-      background-color: darkgreen;
-    }
-
-    .tableDiv {
-      margin-left: 20vw;
-      margin-right: 20vw;
-      width: 60vw;
-    }
-    /*Social Media Buttons*/
-    #facebook, #twitter, #instagram {
-      display: inline-block;
-    }
-    #squareFacebook, #squareTwitter, #squareInstagram {
-      display: none;
-    }
-    .socialMediaButton img {
-      width: 3.5em;
-      height: 3.5em;
-      border-radius: 100px;
-      margin: 10px;
-      border: 5px double rgba(218, 154, 54, 0.3);
-      opacity: 80%;
-    }
-    
-    .socialMediaButton img:hover {
-      border: 5px double rgb(218, 154, 54);
-      transform: scale(1.5) rotate(360deg);
-      transition: 0.75s;
-      opacity: 100%;
-    }
+  /*Social Media Buttons*/
+  #facebook, #twitter, #instagram {
+    display: inline-block;
+  }
+  #squareFacebook, #squareTwitter, #squareInstagram {
+    display: none;
+  }
+  .socialMediaButton img {
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 100px;
+    margin: 10px;
+    border: 5px double rgba(218, 154, 54, 0.3);
+    opacity: 80%;
+  }
+  
+  .socialMediaButton img:hover {
+    border: 5px double rgb(218, 154, 54);
+    transform: scale(1.5) rotate(360deg);
+    transition: 0.75s;
+    opacity: 100%;
+  }
 }
 
-  /* Second page layout break*/
+  /* -------- Second page layout break --------*/
   @media screen and (min-width: 1020px) {
     nav .flex-container {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
       justify-content: flex-end;
-      margin: 0 5px;
     }
 
     .navbarLogo {
       margin-right: auto;
       flex-basis: auto;
     }
-
-    nav li a {
-      font-size: 150%;
-      margin: 2px 7px;
-      border: 4px outset rgb(199, 164, 51);
-      text-shadow: 2px 2px 0 rgb(116, 116, 0),
-                   1px 1px 0 rgb(200, 200, 0);
-      border-radius: 10px;
-      text-transform: none;
-      padding: 30px 14px;
-    }
-
-    .homePageImg {
-      width: auto;
-    }
-        /* Members Table */
-    table {
-      border-collapse: collapse;
-      text-align: center;
-      table-layout: fixed;
-    }
-
-    th, td {
-      background-color: rgb(223, 223, 201);
-      border: 2px solid black;
-      font-size: 150%;
-      width: 75em;
-      padding: 5px;
-    }
-
-    th {
-      border-bottom: 2px solid black;
-      color: rgb(218, 154, 54);
-      background-color: darkgreen;
-    }
-
-    .tableDiv {
-      margin-left: 20vw;
-      margin-right: 20vw;
-      width: 60vw;
-    }
-
-    /*Social Media Buttons*/
-    #facebook, #twitter, #instagram {
-      display: inline-block;
-    }
-    #squareFacebook, #squareTwitter, #squareInstagram {
-      display: none;
-    }
-    .socialMediaButton img {
-      width: 3.5em;
-      height: 3.5em;
-      border-radius: 100px;
-      margin: 10px;
-      border: 5px double rgba(218, 154, 54, 0.3);
-      opacity: 80%;
-    }
-    
-    .socialMediaButton img:hover {
-      border: 5px double rgb(218, 154, 54);
-      transform: scale(1.5) rotate(360deg);
-      transition: 0.75s;
-      opacity: 100%;
-    }
   }
 
-    /* First page layout break*/
+    /* -------- First page layout break --------*/
     @media screen and (min-width: 1270px) {
-      nav .flex-container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: flex-end;
-        margin: 0 5px;
-      }
   
       .navbarLogo {
         margin-right: auto;
@@ -607,65 +482,14 @@ th {
   
       nav li a {
         font-size: 200%;
-        margin: 2px 7px;
         border: 4px outset rgb(199, 164, 51);
-        text-shadow: 2px 2px 0 rgb(116, 116, 0),
-                     1px 1px 0 rgb(200, 200, 0);
-        border-radius: 10px;
-        text-transform: none;
-        padding: 30px 14px;
-      }
-
-      .homePageImg {
-        width: auto;
       }
       
-      /* Members Table */
-      table {
-        border-collapse: collapse;
-        text-align: center;
-        table-layout: fixed;
-      }
-
-      th, td {
-        background-color: rgb(223, 223, 201);
-        border: 2px solid black;
-        font-size: 150%;
-        width: 75em;
-        padding: 5px;
-      }
-
-      th {
-        border-bottom: 2px solid black;
-        color: rgb(218, 154, 54);
-        background-color: darkgreen;
-      }
-
-      .tableDiv {
-        margin-left: 20vw;
-        margin-right: 20vw;
-        width: 60vw;
-      }
       /*Social Media Buttons*/
-      #facebook, #twitter, #instagram {
-        display: inline-block;
-      }
-      #squareFacebook, #squareTwitter, #squareInstagram {
-        display: none;
-      }
+
       .socialMediaButton img {
         width: 4em;
         height: 4em;
-        border-radius: 100px;
-        margin: 10px;
-        border: 5px double rgba(218, 154, 54, 0.3);
-        opacity: 80%;
-      }
-      
-      .socialMediaButton img:hover {
-        border: 5px double rgb(218, 154, 54);
-        transform: scale(1.5) rotate(360deg);
-        transition: 0.75s;
-        opacity: 100%;
+        border: 6px double rgba(218, 154, 54, 0.3);
       }
     }
