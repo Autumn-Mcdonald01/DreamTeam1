@@ -127,29 +127,30 @@ nav li img {
 }
 
  /* Photos of Williams & Norell / leaders section */
+ .leaders.flex-container {
+  display:flex;
+  flex-wrap: wrap;
+  flex: 1 300px;
+}
+
 .flex-item.leaderImage {
   border: 2px solid rgb(218, 154, 54) ;
 }
  
-  .h3ImageLabel {
-   margin: 10px;
- }
- .leaders.flex-container {
-   display:flex;
-   flex-wrap: wrap;
-   flex: 1 300px;
- }
+.h3ImageLabel {
+  margin: 10px;
+}
 
- .Norell {
-   width: 500px;
-   height: 500px;
-   box-shadow: 5px 5px 5px #707070;
- }
+.Norell {
+  width: 500px;
+  height: 500px;
+  box-shadow: 5px 5px 5px #707070;
+}
 
- .Williams {
-   max-width: 400px;
-    box-shadow: 5px 5px 5px #707070;
- }
+.Williams {
+  max-width: 400px;
+  box-shadow: 5px 5px 5px #707070;
+}
 
  /* Photos */
  .event1, .event2, .event3 {
@@ -160,7 +161,7 @@ nav li img {
    box-shadow: 5px 5px 5px #707070;
    width: 90%;
  }
-/* link back to top of page */
+/* link back to top of page    NOTE: REMOVED
 
 #bottomToTop a:link, #bottomToTop a:visited {
   font-family: 'Montserrat', Verdana, Tahoma, sans-serif;
@@ -171,7 +172,7 @@ nav li img {
   text-decoration: none;
   text-transform: uppercase;
   display: block;
-}
+} */
 
 #bottomToTop a:hover, #bottomToTop a:active {
   background-color: #fbff007e;
@@ -197,7 +198,7 @@ nav li img {
 /* Webpage footer */
 
 #page-footer {
-  background: color F 0F 0E 1;
+  background-color: color F 0F 0E 1;
   color: color F 0F 0E 1;
 }
 
@@ -206,7 +207,6 @@ nav li img {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color:color F 0F 0E 1;
 }
 
 #page-footer li {
