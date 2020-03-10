@@ -7,34 +7,33 @@ Aladin - Purely decorative, caligraphy font
 Allerta Stencil - decorative stencil font - blocky
 */
 /* Full page*/
-body{
+body {
   margin: 0;
+  padding: 0;
   background-color: beige;
 }
 
 .page-content {
   margin: 1%;
   width: 99vw;
-  
 }
 
 p {
-  font-family: 'Montserrat', Verdana, Tahoma, sans-serif ;
+  font-family: "Montserrat", Verdana, Tahoma, sans-serif;
 }
 
 h1 {
   text-align: center;
-  font-family: 'Montserrat', Verdana, Tahoma, sans-serif;
+  font-family: "Montserrat", Verdana, Tahoma, sans-serif;
 }
 
 h2 {
-  font-family: 'Poppins', Verdana, Tahoma, sans-serif;
+  font-family: "Poppins", Verdana, Tahoma, sans-serif;
   text-align: center;
 }
 
 h3 {
-  font-family: 'Montserrat', Verdana, Tahoma, sans-serif;
-  text-decoration: underline;
+  font-family: "Montserrat", Verdana, Tahoma, sans-serif;
   text-decoration-color: black;
 }
 
@@ -43,8 +42,10 @@ hr {
   background-color: rgb(218, 154, 54);
 }
 
-.mailLink, .linksMedia, #listMembers {
-  font-family: 'Poppins', 'Montserrat', Verdana, Tahoma, sans-serif
+.mailLink,
+.linksMedia,
+#listMembers {
+  font-family: "Poppins", "Montserrat", Verdana, Tahoma, sans-serif;
 }
 
 /* Navbar */
@@ -56,46 +57,46 @@ nav .flex-container {
 }
 
 nav {
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0;
-    overflow: hidden;
-    background-color: darkgreen;  
-  } 
-  
- nav li a {
-    font-size: 175%;
-    display: block;
-    background-color: rgb(1, 112, 1);
-    color: rgb(255, 196, 0);
-    text-align: center;
-    padding: 10px 14px;
-    text-decoration: none;
-    text-transform: uppercase;
-    border: 2px solid rgb(199, 164, 51);
-  }
-  
- nav li a:hover {
-    background-color: green;
-    color: rgb(255, 228, 110);
-    border: double 3px rgb(173, 144, 46);
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkgreen;
+}
 
- /*Homepage content*/ 
- .homepageContent {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
- }
+nav li a {
+  font-size: 175%;
+  display: block;
+  background-color: rgb(1, 112, 1);
+  color: rgb(255, 196, 0);
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid rgb(199, 164, 51);
+}
+
+nav li a:hover {
+  background-color: green;
+  color: rgb(255, 228, 110);
+  border: double 3px rgb(173, 144, 46);
+}
+
+/*Homepage content*/
+.homepageContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 /* Society page Leaders and Members links */
 
 .titleLink {
   text-decoration: none;
-  color: rgb(0, 64, 255) ;
+  color: rgb(0, 64, 255);
 }
 
 .titleLink:hover {
@@ -105,7 +106,7 @@ nav ul {
 /* Community Page*/
 .flex-container.communityEvents {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
@@ -123,59 +124,58 @@ nav li img {
   text-align: center;
   padding: 10px 0;
 }
- ul .navbarLogo {
+ul .navbarLogo {
   text-align: center;
 }
 
- /* Photos of Williams & Norell / leaders section */
- .leaders.flex-container {
-  display:flex;
-  flex-wrap: wrap;
-  flex: 1 300px;
+/* Enrollment Page */
+.enrollmentSectionHeader {
+  text-decoration: underline;
 }
 
-.flex-item.leaderImage {
-  border: 2px solid rgb(218, 154, 54) ;
+.enrollmentContentHeader {
+  margin-top: 2em;
 }
- 
-.h3ImageLabel {
+
+/* Photos of Williams & Norell / leaders section */
+.leaders.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 300px;
+  justify-content: center;
+}
+
+.flex-item.leaderInfo {
+  border: 2px solid rgb(218, 154, 54);
   margin: 10px;
 }
 
-.Norell {
+.h3ImageLabel {
+  margin: 10px;
+  text-align: center;
+}
+
+.Norell, .Williams{
   width: 500px;
   height: 500px;
   box-shadow: 5px 5px 5px #707070;
+  margin: 10px;
 }
 
-.Williams {
-  max-width: 400px;
-  box-shadow: 5px 5px 5px #707070;
-}
-
- /* Photos */
- .event1, .event2, .event3 {
+/* Photos */
+.event1,
+.event2,
+.event3 {
   box-shadow: 5px 5px 5px #707070;
   max-width: 20em;
- }
- .homePageImg {
-   box-shadow: 5px 5px 5px #707070;
-   width: 90%;
- }
-/* link back to top of page    NOTE: REMOVED
+}
+.homePageImg {
+  box-shadow: 5px 5px 5px #707070;
+  width: 90%;
+}
 
-#bottomToTop a:link, #bottomToTop a:visited {
-  font-family: 'Montserrat', Verdana, Tahoma, sans-serif;
-  background-color: rgb(124, 146, 85);
-  color: black;
-  padding: 4px 8px 4px 8px;
-  text-align:center; 
-  text-decoration: none;
-  text-transform: uppercase;
-  display: block;
-} */
-
-#bottomToTop a:hover, #bottomToTop a:active {
+#bottomToTop a:hover,
+#bottomToTop a:active {
   background-color: #fbff007e;
   font-size: 120%;
 }
@@ -188,19 +188,21 @@ nav li img {
   padding: 0;
   text-decoration: none;
   border: 5px double rgb(218, 155, 54);
-  transition: transform  0.4s ease-out;
+  transition: transform 0.4s ease-out;
   opacity: 100%;
-  }
+}
 
-#facebook, #twitter, #instagram {
+#facebook,
+#twitter,
+#instagram {
   display: none;
 }
 
 /* Webpage footer */
 
 #page-footer {
-  background-color: color F 0F 0E 1;
-  color: color F 0F 0E 1;
+  background-color: color F 0f 0e 1;
+  color: color F 0f 0e 1;
 }
 
 #page-footer ul {
@@ -216,12 +218,11 @@ nav li img {
 
 #copyright {
   margin-bottom: 0;
-  font-family: 'Allerta Stencil', 'Times New Roman', Times, serif;
+  font-family: "Allerta Stencil", "Times New Roman", Times, serif;
   text-align: center;
-  background-color: color F 0F 0E 1;
-  color:black;
+  background-color: color F 0f 0e 1;
+  color: black;
 }
-
 
 /* Members Table */
 table {
@@ -230,7 +231,8 @@ table {
   table-layout: fixed;
 }
 
-th, td {
+th,
+td {
   background-color: rgb(240, 240, 222);
   border: 2px solid black;
   font-size: 150%;
@@ -247,12 +249,12 @@ th {
 .tableDiv {
   margin-left: 10vw;
   margin-right: 10vw;
-  width: 80vw; }
+  width: 80vw;
+}
 
 /* Event Table*/
 .events {
-  padding-top:2px;
- 
+  padding-top: 2px;
 }
 
 /*  Calendar CSS */
@@ -267,8 +269,6 @@ th {
   width: 550px;
   height: 450px;
   box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.2);
-  ;
-
 }
 
 .month {
@@ -278,12 +278,12 @@ th {
   width: 92.8%;
   padding: 10px 20px;
   text-align: center;
-  background-color:darkgreen;
+  background-color: darkgreen;
   color: #fff;
 }
 
 .weekdays {
-  background-color:rgb(218, 154, 54);
+  background-color: rgb(218, 154, 54);
   color: #fff;
   padding: 7px 0;
   display: flex;
@@ -313,13 +313,13 @@ th {
 }
 
 .today {
-  background-color:rgb(218, 154, 54);
+  background-color: rgb(218, 154, 54);
   color: #fff;
 }
 
 .days div:hover {
   cursor: pointer;
-  background-color: #dfe6e9
+  background-color: #dfe6e9;
 }
 
 .prev,
@@ -346,15 +346,12 @@ th {
   font-weight: 500;
 }
 
-/* Back to Top */
+/* Back to Top Button */
 
 html {
   scroll-behavior: smooth;
 }
-body {
-  margin: 0;
-  padding: 0;
-}
+
 section {
   width: 100%;
   height: 300vh;
@@ -377,9 +374,7 @@ section {
 }
 
 
-
 /* Media Queries (must remain at bottom of CSS*/
-
 
 
 /* -------- Fourth page layout break --------*/
@@ -392,7 +387,7 @@ section {
   }
 
   .navbarLogo {
-    margin: auto; 
+    margin: auto;
     flex-basis: 100%;
   }
 
@@ -400,7 +395,7 @@ section {
     font-size: 120%;
     margin: 2px 7px;
     border: 3px solid rgb(199, 164, 51);
-    border-radius: 10px;
+    border-radius: 7.5px;
     text-transform: none;
     padding: 30px 14px;
   }
@@ -419,7 +414,6 @@ section {
 
 /* -------- Third page layout break --------*/
 @media screen and (min-width: 885px) {
-
   .navbarLogo {
     margin-right: auto;
     flex-basis: 100%;
@@ -427,7 +421,7 @@ section {
 
   nav li a {
     font-size: 150%;
-    text-shadow: 1px 1px 1px rgb(116, 116, 0); /*2px 2px 0.5px rgb(200, 200, 0),*/
+    text-shadow: 1px 1px 1px rgb(116, 116, 0);
   }
 
   /* Members Table */
@@ -437,10 +431,14 @@ section {
   }
 
   /*Social Media Buttons*/
-  #facebook, #twitter, #instagram {
+  #facebook,
+  #twitter,
+  #instagram {
     display: inline-block;
   }
-  #squareFacebook, #squareTwitter, #squareInstagram {
+  #squareFacebook,
+  #squareTwitter,
+  #squareInstagram {
     display: none;
   }
   .socialMediaButton img {
@@ -451,7 +449,7 @@ section {
     border: 5px double rgba(218, 154, 54, 0.3);
     opacity: 80%;
   }
-  
+
   .socialMediaButton img:hover {
     border: 5px double rgb(218, 154, 54);
     transform: scale(1.5) rotate(360deg);
@@ -460,40 +458,39 @@ section {
   }
 }
 
-  /* -------- Second page layout break --------*/
-  @media screen and (min-width: 1020px) {
-    nav .flex-container {
-      justify-content: flex-end;
-    }
-
-    .navbarLogo {
-      margin-right: auto;
-      flex-basis: auto;
-    }
+/* -------- Second page layout break --------*/
+@media screen and (min-width: 1020px) {
+  nav .flex-container {
+    justify-content: flex-end;
   }
 
-    /* -------- First page layout break --------*/
-    @media screen and (min-width: 1270px) {
-  
-      .navbarLogo {
-        margin-right: auto;
-        flex-basis: auto;
-      }
-  
-      nav li a {
-        font-size: 200%;
-        border: 3.5px solid rgb(199, 164, 51);
-      }
+  .navbarLogo {
+    margin-right: auto;
+    flex-basis: auto;
+  }
+}
 
-      nav li a:hover {
-        border: double 3.5px rgb(173, 144, 46);
-      }
-      
-      /*Social Media Buttons*/
+/* -------- First page layout break --------*/
+@media screen and (min-width: 1270px) {
+  .navbarLogo {
+    margin-right: auto;
+    flex-basis: auto;
+  }
 
-      .socialMediaButton img {
-        width: 4em;
-        height: 4em;
-        border: 6px double rgba(218, 154, 54, 0.3);
-      }
-    }
+  nav li a {
+    font-size: 200%;
+    border: 3.5px solid rgb(199, 164, 51);
+  }
+
+  nav li a:hover {
+    border: double 3.5px rgb(173, 144, 46);
+  }
+
+  /*Social Media Buttons*/
+
+  .socialMediaButton img {
+    width: 4em;
+    height: 4em;
+    border: 6px double rgba(218, 154, 54, 0.3);
+  }
+}
