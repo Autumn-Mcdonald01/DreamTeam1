@@ -1,5 +1,6 @@
 /* Notes
 Fonts imported from Google: 
+Merriweather - Serif font for most text
 Montserrat - Neat, easily read, without being overly boring to look at
 Tomorrow - computerized-esque text with harsh angles instead of round edges
 Poppins - similar to Montserrat but  with more definitive letters shapes and thicker letters
@@ -13,27 +14,36 @@ body {
   background-color: beige;
 }
 
+.footer-pusher {
+  margin-bottom: 159px;
+}
+#page-footer, .footer-pusher {
+  height: 159px;
+}
+
 .page-content {
+  flex-grow: 1;
   margin: 1%;
+  margin-bottom: 159px;
   width: 99vw;
 }
 
 p {
-  font-family: "Montserrat", Verdana, Tahoma, sans-serif;
+  font-family: 'Merriweather', 'Times New Roman', Times, serif;
 }
 
 h1 {
   text-align: center;
-  font-family: "Montserrat", Verdana, Tahoma, sans-serif;
+  font-family: 'Merriweather', 'Times New Roman', Times, serif;
 }
 
 h2 {
-  font-family: "Poppins", Verdana, Tahoma, sans-serif;
+  font-family: 'Poppins', Verdana, Tahoma, sans-serif;
   text-align: center;
 }
 
 h3 {
-  font-family: "Montserrat", Verdana, Tahoma, sans-serif;
+  font-family: 'Merriweather', 'Times New Roman', Times, serif;
   text-decoration-color: black;
 }
 
@@ -45,7 +55,7 @@ hr {
 .mailLink,
 .linksMedia,
 #listMembers {
-  font-family: "Poppins", "Montserrat", Verdana, Tahoma, sans-serif;
+  font-family: 'Poppins', 'Montserrat', Verdana, Tahoma, sans-serif;
 }
 
 /* Navbar */
@@ -57,7 +67,7 @@ nav .flex-container {
 }
 
 nav {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-family: 'Merriweather', 'Times New Roman', Times, serif;
 }
 
 nav ul {
@@ -201,7 +211,7 @@ ul .navbarLogo {
 /* Webpage footer */
 
 #page-footer {
-  background-color: color F 0f 0e 1;
+  background-color: rgb(9, 77, 9);
   color: color F 0f 0e 1;
 }
 
@@ -218,10 +228,10 @@ ul .navbarLogo {
 
 #copyright {
   margin-bottom: 0;
-  font-family: "Allerta Stencil", "Times New Roman", Times, serif;
+  font-family: "Allerta Stencil", "Poppins", "Times New Roman", Times, serif;
   text-align: center;
-  background-color: color F 0f 0e 1;
-  color: black;
+  background-color: rgb(9, 77, 9);
+  color: white;
 }
 
 /* Members Table */
@@ -362,14 +372,14 @@ section {
   position: fixed;
   width: 50px;
   height: 50px;
-  background: darkgreen;
+  background: rgba(0, 100, 0, 0.7);
   bottom: 40px;
-  right: 50px;
+  right: 30px;
 
   text-decoration: none;
   text-align: center;
   line-height: 50px;
-  color: white;
+  color: rgba(255, 255, 255, 0.7);
   font-size: 22px;
 }
 
@@ -462,11 +472,6 @@ section {
 @media screen and (min-width: 1020px) {
   nav .flex-container {
     justify-content: flex-end;
-  }
-
-  .navbarLogo {
-    margin-right: auto;
-    flex-basis: auto;
   }
 }
 
