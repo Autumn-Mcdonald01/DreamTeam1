@@ -1,4 +1,4 @@
-/* Notes
+/* Fonts Notes (to prevent cnofusion)
 Fonts imported from Google: 
 Merriweather - Serif font for most text
 Montserrat - Neat, easily read, without being overly boring to look at
@@ -7,18 +7,13 @@ Poppins - similar to Montserrat but  with more definitive letters shapes and thi
 Aladin - Purely decorative, caligraphy font
 Allerta Stencil - decorative stencil font - blocky
 */
+
 /* Full page*/
 body {
+  font-size: 16px;
   margin: 0;
   padding: 0;
   background-color: beige;
-}
-
-.footer-pusher {
-  margin-bottom: 159px;
-}
-#page-footer, .footer-pusher {
-  height: 159px;
 }
 
 .page-content {
@@ -45,11 +40,6 @@ h2 {
 h3 {
   font-family: 'Merriweather', 'Times New Roman', Times, serif;
   text-decoration-color: black;
-}
-
-hr {
-  size: 3px;
-  background-color: rgb(218, 154, 54);
 }
 
 .mailLink,
@@ -147,6 +137,14 @@ ul .navbarLogo {
   margin-top: 2em;
 }
 
+/*Media/Links Page footer fix*/
+
+.footer-pusher {
+  margin-bottom: 159px;
+}
+#page-footer, .footer-pusher {
+  height: 159px;
+}
 /* Photos of Williams & Norell / leaders section */
 .leaders.flex-container {
   display: flex;
@@ -189,6 +187,7 @@ ul .navbarLogo {
   background-color: #fbff007e;
   font-size: 120%;
 }
+
 /* Social media buttons*/
 .socialMediaButton img {
   width: 3em;
@@ -402,8 +401,9 @@ section {
   }
 
   nav li a {
-    font-size: 120%;
-    margin: 2px 7px;
+    min-width: 175px;
+    font-size: 160%;
+    margin: 5px 10px;
     border: 3px solid rgb(199, 164, 51);
     border-radius: 7.5px;
     text-transform: none;
@@ -423,13 +423,15 @@ section {
 }
 
 /* -------- Third page layout break --------*/
-@media screen and (min-width: 885px) {
+@media screen and (min-width: 887px) {
   .navbarLogo {
     margin-right: auto;
     flex-basis: 100%;
   }
 
   nav li a {
+    margin: 10px 5px;
+    min-width: 100px;
     font-size: 150%;
     text-shadow: 1px 1px 1px rgb(116, 116, 0);
   }
@@ -469,7 +471,16 @@ section {
 }
 
 /* -------- Second page layout break --------*/
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 1060px) {
+  nav li a {
+    margin: 10px 7px;
+  }
+    
+  .navbarLogo {
+    margin-right: auto;
+    flex-basis: auto;
+  }
+
   nav .flex-container {
     justify-content: flex-end;
   }
@@ -477,13 +488,10 @@ section {
 
 /* -------- First page layout break --------*/
 @media screen and (min-width: 1270px) {
-  .navbarLogo {
-    margin-right: auto;
-    flex-basis: auto;
-  }
 
   nav li a {
-    font-size: 200%;
+    min-width: 150px;
+    font-size: 175%;
     border: 3.5px solid rgb(199, 164, 51);
   }
 
