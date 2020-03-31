@@ -162,6 +162,7 @@ ul .navbarLogo {
 .footer-pusher {
   margin-bottom: 159px;
 }
+
 #page-footer, .footer-pusher {
   height: 159px;
 }
@@ -169,7 +170,6 @@ ul .navbarLogo {
 p.business-hours {
   text-align: left;
 }
-
 /* Photos of Williams & Norell / leaders section */
 .leaders.flex-container {
   display: flex;
