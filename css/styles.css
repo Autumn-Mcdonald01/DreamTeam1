@@ -18,9 +18,9 @@ body {
 
 .page-content {
   flex-grow: 1;
-  margin: 1%;
+  
   margin-bottom: 159px;
-  width: 99vw;
+  
 }
 
 p {
@@ -301,7 +301,7 @@ th {
 /*  Calendar CSS */
 
 .wrapper {
-  width: 550px;
+  width: 95%;
   height: 500px;
   display: flex;
 }
@@ -420,6 +420,10 @@ section {
 
 /* -------- Fourth page layout break --------*/
 @media screen and (min-width: 770px) {
+  .wrapper {
+    width: 550px;
+  }
+
   nav .flex-container {
     display: flex;
     flex-direction: row;
