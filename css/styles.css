@@ -205,8 +205,8 @@ p.business-hours {
 }
 
 .Norell, .Williams{
-  width: 500px;
-  height: 500px;
+  max-width: 70vw;
+  min-height: 300px;
   box-shadow: 5px 5px 5px #707070;
   margin: 10px;
 }
@@ -451,6 +451,12 @@ section {
 
 /* -------- Fourth page layout break --------*/
 @media screen and (min-width: 770px) {
+
+  .Norell, .Williams{
+    width: 500px;
+    height: 500px;
+  }
+
   .wrapper {
     width: 550px;
   }
