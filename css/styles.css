@@ -18,7 +18,6 @@ body {
 
 .page-content {
   flex-grow: 1;
-  
   margin-bottom: 159px;
   
 }
@@ -30,8 +29,6 @@ p {
 }
 
 h1 {
-  text-decoration: underline;
-  text-decoration-color: black;
   text-align: center;
   font-family: 'Merriweather', 'Times New Roman', Times, serif;
 }
@@ -100,6 +97,14 @@ nav li a:hover {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.homePageImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: auto;
+}
 /* Society page Leaders and Members links */
 
 .titleLink {
@@ -113,15 +118,21 @@ nav li a:hover {
 
 /* Community Page*/
 .flex-container.communityEvents {
+  justify-content: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .community-Event {
+  flex-direction: column;
   border: 5px dotted rgb(218, 154, 54);
   padding: 1em;
   margin: 0 5px;
+}
+
+.page-content.enrollmentpage-container br {
+  display: none;
 }
 
 /* Logo */
@@ -159,6 +170,10 @@ ul .navbarLogo {
 
 /*Contact/Media Page*/
 
+.contactMediaPage.page-content {
+  padding: 20px;
+}
+
 .footer-pusher {
   margin-bottom: 159px;
 }
@@ -179,6 +194,7 @@ p.business-hours {
 }
 
 .flex-item.leaderInfo {
+  justify-content: center;
   border: 2px solid rgb(218, 154, 54);
   margin: 10px;
 }
@@ -199,9 +215,12 @@ p.business-hours {
 .event1,
 .event2,
 .event3 {
+  margin: 15px;
   box-shadow: 5px 5px 5px #707070;
-  max-width: 20em;
+  width: auto;
+  max-width: 60vw;
 }
+
 .homePageImg {
   box-shadow: 5px 5px 5px #707070;
   width: 90%;
@@ -299,11 +318,16 @@ th {
 }
 
 /*  Calendar CSS */
+.covidNotice {
+  margin: 20px 5px;
+}
 
 .wrapper {
   width: 95%;
   height: 500px;
   display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
 .calendar {
@@ -403,19 +427,26 @@ section {
   position: fixed;
   width: 50px;
   height: 50px;
-  background: rgba(0, 100, 0, 0.7);
+  background: rgba(0, 100, 0, 0.5);
   bottom: 40px;
   right: 30px;
 
   text-decoration: none;
   text-align: center;
   line-height: 50px;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 22px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 22px; 
+}
+
+.gotopbtn:hover {
+  background: rgba(0, 100, 0, 0.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 
+
 /* Media Queries (must remain at bottom of CSS*/
+
 
 
 /* -------- Fourth page layout break --------*/
@@ -444,6 +475,17 @@ section {
     border-radius: 7.5px;
     text-transform: none;
     padding: 30px 14px;
+  }
+
+  .event1,
+  .event2,
+  .event3 {
+    width: auto;
+    max-width: 500px;
+  }
+
+  .page-content.enrollmentpage-container br {
+    display: inline;
   }
 
   .homePageImg {
@@ -528,6 +570,10 @@ section {
 
 /* -------- First page layout break --------*/
 @media screen and (min-width: 1270px) {
+
+  .enrollment-inf p, .membership-obs p {
+    text-align: left;
+  }
 
   nav li a {
     min-width: 150px;
