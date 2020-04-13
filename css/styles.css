@@ -307,8 +307,8 @@ th {
 
 .tableDiv {
   margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5px;
+  margin-right: 5px;
   max-width: 60vw;
 }
 
