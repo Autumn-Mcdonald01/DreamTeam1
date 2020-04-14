@@ -284,6 +284,7 @@ table {
   border-collapse: collapse;
   text-align: center;
   table-layout: fixed;
+  align-self: center;
 }
 
 table#listMembers {
@@ -295,7 +296,7 @@ td {
   background-color: rgb(240, 240, 222);
   border: 2px solid black;
   font-size: 120%;
-  max-width: 75em;
+  /* max-width: 75em; */
   padding: 5px;
 }
 
@@ -306,9 +307,14 @@ th {
 }
 
 .tableDiv {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  float: center;
   margin-bottom: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 30vw;
 }
 
@@ -324,7 +330,7 @@ th {
 
 .wrapper {
   width: 95%;
-  height: 500px;
+  height:500px;
   display: flex;
   justify-content: center;
   margin: auto;
@@ -368,7 +374,8 @@ th {
 }
 
 .days div {
-  padding: 10px 0;
+  height: 240;
+  padding: 7.5px 0;
   margin-bottom: 10px;
   transition: all 0.4s;
 }
@@ -504,9 +511,9 @@ section {
   /* Members Table */
 
   .tableDiv {
-    margin-left: 20vw;
-    margin-right: 20vw;
-    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 60vw; */
   }
 }
 
