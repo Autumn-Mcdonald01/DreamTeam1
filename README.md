@@ -1,8 +1,15 @@
-# NHS-Project
+# Dream Team - National Honor Society Website
 DevCatalyst Coding Project
 
-
-Here is where we'll have to describe what we did, i think.
+Solomon Peggs, Autumn McDonald
+JCM- Early College High
 
 
 Picked out colors because she said to use school colors
+
+Words in navbar gain underline when screen is larger
+
+Links on society page to members and leaders
+
+
+// add more later
