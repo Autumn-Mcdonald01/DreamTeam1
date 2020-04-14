@@ -330,7 +330,7 @@ th {
 
 .wrapper {
   width: 95%;
-  height: 500px;
+  height:500px;
   display: flex;
   justify-content: center;
   margin: auto;
@@ -374,7 +374,8 @@ th {
 }
 
 .days div {
-  padding: 10px 0;
+  height: 240;
+  padding: 7.5px 0;
   margin-bottom: 10px;
   transition: all 0.4s;
 }
