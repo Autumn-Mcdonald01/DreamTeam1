@@ -17,9 +17,11 @@ body {
 }
 
 .page-content {
-  flex-grow: 1;
-  margin-bottom: 159px;
-  
+  flex-grow: 1; 
+}
+
+a {
+  font-family: 'Merriweather', 'Times New Roman', Times, serif;
 }
 
 p {
@@ -174,11 +176,15 @@ ul .navbarLogo {
   padding: 20px;
 }
 
-.footer-pusher {
-  margin-bottom: 159px;
+.classVideo video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+  height: 240px;
 }
 
-#page-footer, .footer-pusher {
+#page-footer {
   height: 159px;
 }
 
@@ -515,6 +521,12 @@ section {
     margin-right: auto;
     /* width: 60vw; */
   }
+
+  /* Video */
+  .classVideo video {
+    width: 480px;
+    height: 360px;
+  }
 }
 
 /* -------- Third page layout break --------*/
@@ -563,6 +575,12 @@ section {
     transition: 0.75s;
     opacity: 100%;
   }
+
+  /* Video */
+  .classVideo video {
+    width: 640px;
+    height: 480px;
+  }
 }
 
 /* -------- Second page layout break --------*/
@@ -578,6 +596,12 @@ section {
 
   nav .flex-container {
     justify-content: flex-end;
+  }
+  
+  /* Video */
+  .classVideo video {
+    width: 800px;
+    height: 600px;
   }
 }
 
