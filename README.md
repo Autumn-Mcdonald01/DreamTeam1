@@ -10,17 +10,17 @@ Solomon: The calendar and the back to top arrow.
 Autumn: The flexbox arrangements for images in the different media queries.
 
   Although most of the website is straightforward, the work done became very difficult in some cases, and some smaller details of the website might be overlooked. This includes details such as:  
-    •	The page links in the navbar gain a shadow when the page is desktop sized
-    •	The video used on the last page is also present on our school's facebook page
-    •	The "Members and Leaders" title on the second page contains links
+    •	The page links in the navbar gain a shadow when the page is desktop sized <br>
+    •	The video used on the last page is also present on our school's facebook page <br>
+    •	The "Members and Leaders" title on the second page contains links <br>
     • When the buttons in the footer change to the square shape on the mobile layout, 
-    it's a different image than the one used in the bigger layout.
-    • When clicking on the email links, it opens an email with the subject "National Honor Society"
-    • The table changes background colors on the smaller view for easier reading
+    it's a different image than the one used in the bigger layout. <br>
+    • When clicking on the email links, it opens an email with the subject "National Honor Society" <br>
+    • The table changes background colors on the smaller view for easier reading <br>
   
   Working on the website without having school as a communication point was difficult, but overall it turned out almost entirely as planned. We are very thankful to have been given the opportunity to participate in the DevCatalyst project, and we hope that you enjoy your experience with our website. 
 
-  ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
-Dream Team @ JCM-Early College High
+  ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ <br>
+Dream Team @ JCM-Early College High <br>
   Solomon Peggs, Autumn McDonald
 
